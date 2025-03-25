@@ -1,0 +1,1 @@
+landing-page project to put in practice what i've learned about flexbox layout.
