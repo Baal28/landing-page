@@ -13,7 +13,10 @@ body{
 .container{
     background-color: #1f2937;
     display: flex;
-    justify-content: space-around;
+    flex-direction: column;
+    
+    
+    
 }
 
 ul{
@@ -51,28 +54,31 @@ img{
 
 .header{
     display: flex;
-    flex-direction: column;
+    justify-content: space-evenly;
     align-items: center;
     padding: 20px;
+    gap: 370px;
     margin-bottom: 100px;
 }
 
 .title{
     display: flex;
-    align-self: flex-start;
-    margin-bottom: 100px;
+
 }
+
 
 .header-menu{
     display: flex;
     gap: 18px;
-    margin-bottom: 100px;
+    
 }
 
 .content{
     display: flex;
-    flex-direction: column; 
-    padding: 20px;
+    justify-content: space-evenly;
+    margin-bottom: 100px;
+    
+    
 }
 
 .left{
@@ -81,7 +87,7 @@ img{
     justify-content: center;
     align-content: center;
     gap: 15px;
-    width: 400px;
+    width: 410px;
     /*margin-left: 130px;*/
 }
 
@@ -97,6 +103,5 @@ button{
 
 .right {
     display: flex;
-    align-self: flex-start;
-    flex: 1;
+    
 }
