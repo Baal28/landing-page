@@ -7,16 +7,14 @@
 
 body{
     font-family: Roboto;
-    
+    display: flex;
+    flex-direction: column;
 }
 
 .container{
     background-color: #1f2937;
     display: flex;
     flex-direction: column;
-    
-    
-    
 }
 
 ul{
@@ -105,3 +103,84 @@ button{
     display: flex;
     
 }
+
+/* below start second container*/
+
+.container-2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 15px;
+}
+
+.container-3{
+    display: flex;
+    gap: 70px;
+    margin-bottom: 100px;
+}
+
+.card-container{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.color-2{
+    font-size: 36px;
+    font-weight: 900;
+    color: #1f2937;
+    padding: 40px;
+}
+
+.card {
+    border: 3px solid #3882f6;
+    box-shadow: 2px 4px 16px rgba(0,0,0,.06);
+    border-radius: 12px;
+    padding: 48px;
+    width: 50px;
+    height: 50px;
+  }
+
+  .subtext{
+    width: 150px;
+    text-align: center;
+  }
+
+  .subtext-color{
+    color: black;
+  }
+
+  /* Below start third container*/
+
+  .container-4{
+    background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 100px;
+  }
+
+  .quote{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  .italic{
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 100;
+    color: #1f2937;
+    width: 820px;
+  }
+
+  p.thor{
+    display: flex;
+    align-self: flex-end;
+    font-size: 20px;
+    font-weight: 900;
+    color: #1f2937;
+    margin-right: 25px;
+  }
